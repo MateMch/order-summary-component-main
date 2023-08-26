@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+*{
+margin: 0%;
+padding: 0%;
+}
+
+
+body{
+background-color:hsl(225, 100%, 94%);
+background-image: url('images/pattern-background-desktop.svg');
+background-size: 100% auto;
+background-repeat: no-repeat;
+background-position:0% 10%;
+}
+.container{
+font-family: 'Red Hat Display', sans-serif;   
+width: 450px;
+height: 692px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+border-radius: 20px;
+background-color: white;
+}
+.illustration{
+width: 450px;
+border-top-left-radius:20px ;
+border-top-right-radius:20px ;
+}
+.title{
+position: relative;
+top: 25px;
+font-weight:900;
+font-size: 28px;
+}
+.paragraph{
+position: relative;
+top: 30px ;
+width: 295px;
+color: hsl(224, 23%, 55%);
+font-size: 16px;
+text-align: center;
+}
+.box{
+position: relative;
+width: 80%;
+height: 98px;
+border-radius: 10px;
+top: 60px;
+background: hsl(225, 100%, 98%);
+}
+.icon{
+position: absolute;
+top: 50%;
+left: 40px;
+transform: translate(-50%, -50%);
+margin-right: 10px;    
+}
+.Plan{
+position: absolute;
+top: 35%;
+left: 35%;
+transform: translate(-50%, -50%);
+margin-right: 10px;
+font-weight: bolder;
+}
+.prise{
+position: absolute;
+top: 65%;
+left: 35%;
+transform: translate(-50%, -50%);
+margin-right: 10px;
+color: gray;
+
+}
+.Change{
+border: none;
+background-color: transparent;
+font-weight: bold;
+text-decoration: underline;
+cursor: pointer;
+color:hsl(245, 75%, 52%);
+position: absolute;
+top: 50%;
+left: 85%;
+transform: translate(-50%, -50%);
+margin-right: 10px;
+font-size: 14px;
+}
+.Change:hover{
+text-decoration:none;
+color:hsl(224, 71%, 60%);
+}
+.button{
+position: relative;
+width: 80%;
+height: 48px;
+border-radius: 10px;
+cursor: pointer;
+top: 100px;
+font-weight: 700;
+background-color: hsl(245, 75%, 52%);
+color: white;
+border: none;
+box-shadow:0 15px 20px 0 hsla(245, 75%, 52%, .25);
+font-size: 14px;
+}
+.button:hover{
+background-color:hsl(224, 71%, 60%);
+}
+.Order{
+position: relative;
+top:130px;
+color: hsl(224, 23%, 55%);
+cursor: pointer;
+background-color: transparent;
+border: none;
+font-weight:900;
+font-size: 13.4px;
+}
+.Order:hover{
+color:hsl(223, 47%, 23%) ;
+}
+@media(max-width:456px)
+{
+body{
+background-image: url('images/pattern-background-mobile.svg');
+background-size: cover;
+}
+.container{
+width: 90%;
+position: fixed;
+justify-content: center;
+align-items: center;
+height: 590px;
+}
+.illustration{
+width: 100%;
+}
+.paragraph{
+width: 80%;
+top: 45px;
+line-height: 150%;
+}
+
+.button{
+top: 80px;
+height:50px;
+}
+.Order{
+top: 110px;
+}
+.box{
+top:60px;
+height: 80px;
+
+}
+.icon{
+position: absolute;
+top: 50%;
+left: 40px;
+transform: translate(-50%, -50%);
+margin-right: 10px;
+
+}
+.Plan{
+position: absolute;
+top: 35%;
+left: 45%;
+transform: translate(-50%, -50%);
+margin-right: 10px;
+}
+.prise{
+position: absolute;
+top: 65%;
+left: 45%;
+transform: translate(-50%, -50%);
+margin-right: 10px;
+}
+.Change{
+position: absolute;
+top: 50%;
+left: 85%;
+transform: translate(-50%, -50%);
+margin-right: 10px;
+}
+}
